@@ -81,20 +81,18 @@
 
 
 
-    .menuButton{
-        display: block;
-        position: flex;
-        top: 10px;
-        right: 160px;
+    .menu-button {
         width: 30px;
-        margin-left: auto;
-        border: none;
-        height: 24px;
-        background: none;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         cursor: pointer;
-        margin-top: -375px;
-        
-       
+        position: fixed;
+        top: 20px;  /* Adjust to fit well on the screen */
+        right: 20px;  /* Adjust to fit well on the screen */
+        z-index: 1000;  /* Ensure it's on top of other elements */
+        background-color: transparent; /* Ensure the background is transparent */
     }
 
     .menuButton{
