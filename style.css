@@ -154,9 +154,6 @@
         text-align: left;
     }
 
-    .HeaderBlock h1{
-     
-    }
 
     .HeaderBlock2{
 
@@ -430,11 +427,12 @@
 
     .JewBody h1{
         font-size: 40px;
-        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+        font-family: Begum sans-serif;
         margin-top: 110px;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: 100;
        
     }
 
@@ -1220,7 +1218,8 @@
 }
 
 .HeaderBlock2 h1{
-    font-family: Belleza;
+   
+    font-weight: 100;
 }
 
 
