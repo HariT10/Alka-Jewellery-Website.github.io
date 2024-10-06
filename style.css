@@ -115,6 +115,14 @@
         justify-content: center;
         display: none;  /* Hidden by default */
     }
+
+    /* Define each line of the button */
+.menu-button div {
+    background-color: #000000;  /* Black lines */
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;  /* Full width of the button */
+}
     
     .nav-active .menu {
         display: flex;  /* Shown when active */
