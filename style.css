@@ -21,7 +21,7 @@
         height: auto;
         margin-bottom: -10%;
         margin-right: 00px;
-        margin-top: -55px;
+        margin-top: -45px;
     }
 
 
@@ -93,7 +93,7 @@
         height: 24px;
         background: none;
         cursor: pointer;
-        margin-top: -390px;
+        margin-top: -375px;
         
      
        
@@ -1280,5 +1280,6 @@
 .footer-contact a:hover {
     text-decoration: underline;
 }
+
 
 
