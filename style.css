@@ -506,7 +506,10 @@
 
     }
 
+    
+
     button{
+        
         text-decoration-color: #000000;
         background-color: white;
         border-color: grey;
@@ -518,6 +521,18 @@
         height: 30px;
         font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
     }
+
+
+    .submit-button {
+        color: blue; /* Change this to your desired text color */
+        border: none; /* Optional: Remove default border */
+        padding: 10px 15px; /* Optional: Adjust padding */
+        cursor: pointer; /* Change cursor to pointer */
+        border-radius: 5px; /* Optional: Rounded corners */
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+
+    }
+
 
     button:hover{
         background-color: lightgrey;
