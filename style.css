@@ -420,11 +420,12 @@
         font-size: 3em;
         color: #333;
         position: absolute;
-        bottom: 50px;
+        bottom: 95px;
         left: 50%;
         transform: translateX(-50%);
         animation: bounce 2s infinite;
-        cursor: pointer; /* Make it clickable if needed */
+        cursor: pointer; 
+        z-index: 100;
     }
 
 
