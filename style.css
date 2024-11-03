@@ -146,8 +146,6 @@
 
 
 
-
-
     .thumbnail-rows{
         content: "";
         clear: both;
@@ -421,7 +419,7 @@
         font-size: 3em;
         color: #333;
         position: absolute;
-        bottom: 110px;
+        bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
         animation: bounce 2s infinite;
