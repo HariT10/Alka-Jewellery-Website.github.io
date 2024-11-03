@@ -57,7 +57,7 @@ function closeModal3() {
 
 function openModal4() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 4.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 4.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal4() {
