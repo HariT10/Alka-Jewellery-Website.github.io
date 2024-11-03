@@ -63,7 +63,9 @@
         width: 100%;
         text-align: left;
         text-decoration: none;
-  
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+        list-style-type: none;
+        margin-top: -12px;
 
     }
 
@@ -102,6 +104,7 @@
         left: 20px;  /* Move it to the left side */
         z-index: 1000;  /* Ensure it's on top of other elements */
         background-color: transparent; /* Transparent background */
+
     }
     
     .menuButton {
@@ -447,6 +450,8 @@
         align-items: center;
         justify-content: space-evenly;
         margin-top: -100px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+
     }
 
     .contact-left{
@@ -454,6 +459,8 @@
         flex-direction: column;
         align-items: start;
         gap: 20px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+
     }
 
     
@@ -478,18 +485,22 @@
         font-weight: 500;
         border-radius: 50px;
         margin-top: 10px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+
     }
 
     .contact-left textarea{
         height: 140px;
         padding-top: 15px;
         border-radius: 20px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+
     }
 
     button{
         background-color: white;
         border-color: grey;
-        border-radius: 5px;
+        border-radius: 10px;
         cursor: pointer;
         transition: background-color 0.3s; /* Smooth background color transition */
         border: none;
