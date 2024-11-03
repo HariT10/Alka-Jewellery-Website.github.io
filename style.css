@@ -1125,6 +1125,8 @@
         align-items: center;
         justify-content: space-evenly;
         margin-top: -100px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
     }
 
     .contact-left{
@@ -1132,6 +1134,8 @@
         flex-direction: column;
         align-items: start;
         gap: 20px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
     }
 
     
@@ -1144,6 +1148,8 @@
         font-weight: bold;            /* Make the text bold */
         line-height: 1.5;             /* Adjust line height for spacing */
         text-align: center;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
     }
 
 
@@ -1156,12 +1162,16 @@
         font-weight: 500;
         border-radius: 50px;
         margin-top: 10px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
     }
 
     .contact-left textarea{
         height: 140px;
         padding-top: 15px;
         border-radius: 20px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
     }
 
     button{
