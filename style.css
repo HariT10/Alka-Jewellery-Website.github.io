@@ -507,7 +507,7 @@
     }
 
     button{
-        
+        text-decoration-color: #000000;
         background-color: white;
         border-color: grey;
         border-radius: 10px;
