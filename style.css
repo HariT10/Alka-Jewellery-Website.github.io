@@ -80,6 +80,16 @@
     }
 
 
+    .menu{
+        display: none;
+    }
+
+    .header.nav-active .menu {
+        display: flex;  /* Shown when active */
+        flex-direction: column;  /* Vertical layout */
+    }
+
+
     .menu-button {
         width: 30px;
         height: 22px;
@@ -101,33 +111,7 @@
         width: 100%;
     }
     
-    .menuButton {
-        width: 30px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    
-    .menu {
-        margin: 0;
-        list-style-type: none;
-        font-size: 20px;
-        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-        justify-content: center;
-        display: none;  /* Hidden by default */
-    }
 
-    /* Define each line of the button */
-    .menu-button div {
-        background-color: #000000;  /* Black lines */
-        height: 4px;
-        border-radius: 2px;
-        width: 100%;  /* Full width of the button */
-    }
-    
-    .nav-active .menu {
-        display: flex;  /* Shown when active */
-        flex-direction: column;  /* Vertical layout */
-    }
     
     .header h1{
         display: none;

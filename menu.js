@@ -1,3 +1,14 @@
+/*
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu'); // Select the menu
+    menu.classList.toggle('nav-active'); // Toggle the active class
+}
+
+
+*/
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -255,3 +266,5 @@ function openModal18() {
 function closeModal18() {
     modal.style.display = "none"; // Hide the modal
 }
+
+
