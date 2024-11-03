@@ -99,7 +99,7 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         top: 20px;  /* Keep it at the top */
         left: 20px;  /* Move it to the left side */
         z-index: 1000;  /* Ensure it's on top of other elements */
