@@ -26,16 +26,17 @@
 
 
 
-    .header{
+    .header {
+        width: 100%; /* Full width of the viewport */
         padding: 8px 12px;
-        /*background: #fff0db;*/
-        /*background-color: #fff0db;*/
         background-color: white;
         color: #f1f1f1;
-        margin-top: 0;
+        margin: 0; /* Removes any default margin */
         text-align: center;
-       
+        position: relative; /* Ensures dropdown menu stays within header width */
+        box-sizing: border-box; /* Prevents padding from affecting width */
     }
+    
 
     
     .content{
