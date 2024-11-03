@@ -476,7 +476,7 @@
     
     .contact-left-title h2 {
         font-size: 24px;              /* Adjust font size */
-        margin-left: 128px;
+        margin-left: 93px;
         font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
         color: #333;                  /* Change text color */
         font-weight: bold;            /* Make the text bold */
@@ -486,7 +486,7 @@
 
 
     .contact-inputs{
-        width: 400px;
+        width: 320px;
         height: 70px;
         border: none;
         outline: none;
@@ -499,9 +499,9 @@
     }
 
     .contact-left textarea{
-        height: 140px;
+        height: 130px;
         padding-top: 15px;
-        border-radius: 20px;
+        border-radius: 30px;
         font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
 
     }
@@ -510,7 +510,6 @@
 
     button{
         
-        text-decoration-color: #000000;
         background-color: white;
         border-color: grey;
         border-radius: 10px;
@@ -520,11 +519,12 @@
         width: 100px;
         height: 30px;
         font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
+        margin-left: 5px;
     }
 
 
     .submit-button {
-        color: blue; /* Change this to your desired text color */
+        color: black; /* Change this to your desired text color */
         border: none; /* Optional: Remove default border */
         padding: 10px 15px; /* Optional: Adjust padding */
         cursor: pointer; /* Change cursor to pointer */
