@@ -19,7 +19,7 @@ var modalImg = document.getElementById("imgInModal");
 
 function openModal1() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 1.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 1.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal1() {
