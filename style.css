@@ -415,8 +415,12 @@
        
     }
 
-    /* Style for the scroll-down arrow */
+    
+
+    /*//Style for the scroll-down arrow */
+
     .scroll-down {
+      display: none;
         font-size: 3em;
         color: #333;
         position: absolute;
@@ -426,10 +430,11 @@
         animation: bounce 2s infinite;
         cursor: pointer; 
         z-index: 100;
-    }
+    } 
 
+    /*
 
-    /* Keyframes for the bouncing animation */
+    //Keyframes for the bouncing animation
     @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
             transform: translate(-50%, 0);
@@ -441,6 +446,8 @@
             transform: translate(-50%, -10px);
         }
     }
+
+    */
 
 
 
