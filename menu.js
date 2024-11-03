@@ -32,7 +32,7 @@ function closeModal1() {
 
 function openModal2() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 2.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 2.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal2() {
@@ -44,7 +44,7 @@ function closeModal2() {
 
 function openModal3() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 3.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 3.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal3() {
@@ -71,7 +71,7 @@ function closeModal4() {
 
 function openModal5() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 5.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 5.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal5() {
@@ -85,7 +85,7 @@ function closeModal5() {
 
 function openModal6() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 6.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 6.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal6() {
@@ -98,7 +98,7 @@ function closeModal6() {
 
 function openModal7() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 7.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 7.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal7() {
@@ -113,7 +113,7 @@ function closeModal7() {
 
 function openModal8() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 8.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 8.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal8() {
@@ -127,7 +127,7 @@ function closeModal8() {
 
 function openModal9() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 9.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 9.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal9() {
@@ -140,7 +140,7 @@ function closeModal9() {
 
 function openModal10() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 10.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 10.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal10() {
@@ -154,7 +154,7 @@ function closeModal10() {
 
 function openModal11() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 11.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 11.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal11() {
@@ -168,7 +168,7 @@ function closeModal11() {
 
 function openModal12() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 12.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 12.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal12() {
@@ -182,7 +182,7 @@ function closeModal12() {
 
 function openModal13() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 13.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 13.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal13() {
@@ -197,7 +197,7 @@ function closeModal13() {
 
 function openModal14() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 14.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 14.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal14() {
@@ -212,7 +212,7 @@ function closeModal14() {
 
 function openModal15() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 15.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 15.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal15() {
@@ -225,7 +225,7 @@ function closeModal15() {
 
 function openModal16() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 16.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 16.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 
@@ -238,7 +238,7 @@ function closeModal16() {
 
 function openModal17() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 17.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 17.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 
@@ -250,7 +250,7 @@ function closeModal17() {
 
 function openModal17() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 17.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 17.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal17() {
@@ -260,7 +260,7 @@ function closeModal17() {
 
 function openModal18() {
     modal.style.display = "flex"; // Show the modal
-    modalImg.src = "image 18.1.png" // Use the same image source, or change it to a higher resolution image here
+    modalImg.src = "Image 18.1.png" // Use the same image source, or change it to a higher resolution image here
 }
 
 function closeModal18() {
