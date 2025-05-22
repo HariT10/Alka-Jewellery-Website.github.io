@@ -26,14 +26,17 @@
 
 
 
-    .header {
+    header {
+        top: 0;
+z-index: 1000;
+
+        position: sticky;
         width: 100%; /* Full width of the viewport */
         padding: 8px 12px;
         background-color: white;
         color: #f1f1f1;
         margin: 0; /* Removes any default margin */
         text-align: center;
-        position: relative; /* Ensures dropdown menu stays within header width */
         box-sizing: border-box; /* Prevents padding from affecting width */
     }
     
@@ -43,15 +46,6 @@
         padding: 16px;
     }
 
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-    }
-
-    .sticky + .content {
-        padding-top: 102px;
-    }
 
 
 
@@ -450,6 +444,22 @@
     */
 
 
+    .contact-section {
+        /*background-color: #f9f9f9; *//* light neutral background */
+        background-color: #5F9EA0;
+        padding: 60px 20px;
+        border-radius: 8px;
+    
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+        padding: 0;
+
+        margin-top: 200px;
+      }
+      
+
+
 
     .contact-cont{
         height: 100vh;
@@ -508,19 +518,19 @@
 
     
 
-    button{
-        
+    button {
+        display: block;
+        margin: 10px auto; /* auto left & right = center horizontally */
         background-color: white;
-        border-color: grey;
         border-radius: 10px;
         cursor: pointer;
-        transition: background-color 0.3s; /* Smooth background color transition */
+        transition: background-color 0.3s;
         border: none;
         width: 100px;
         height: 30px;
-        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
-        margin-left: 5px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     }
+    
 
 
     .submit-button {
@@ -598,6 +608,8 @@
 /*----------------------------------------------------------*/
 @media screen and (min-width: 921px) {
 
+    
+
     body{
         background-color: #FFF8DC;
         background-size: 100% auto;
@@ -609,15 +621,22 @@
 
     /* HEADER */
 
-    .header{
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #FFFAFA;
         padding: 10px 16px;
-        /*background: #fff0db;*/
-        background-color: white;
-        color: #f1f1f1;
-        margin-top: auto;
-        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+        color: #000; /* Fix your text color */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* shadow goes down, not up */
+        padding: 10px 16px;
+        
+      }
 
-    }
+
+      
+ 
+      
 
     .header img{
         margin-right: 10px;
@@ -631,15 +650,6 @@
         padding: 16px;
     }
 
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .sticky + .content {
-        padding-top: 102px;
-    }
 
 
 
@@ -697,7 +707,7 @@
         content: ' ';
         width: 0;
         height: 3px;
-        background: #000000;
+        background: #5F9EA0;
         position: absolute;
         left: 0;
         bottom: -6px;
@@ -1082,7 +1092,20 @@
 
 
 
+    .contact-section {
+        /*background-color: #f9f9f9; *//* light neutral background */
+        background-color: #5F9EA0;
+        padding: 60px 20px;
+        border-radius: 8px;
+    
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 
+        padding: 0;
+
+        margin-top: 200px;
+      }
+      
 
 
 
@@ -1112,7 +1135,7 @@
     .contact-left-title h2 {
         font-size: 24px;              /* Adjust font size */
         font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; /* Change font */
-        color: #333;                  /* Change text color */
+        color: #f1f1f1;                  /* Change text color */
         font-weight: bold;            /* Make the text bold */
         line-height: 1.5;             /* Adjust line height for spacing */
         text-align: center;
@@ -1251,16 +1274,16 @@
 
 .footer {
     margin-top: 100px;
-    height: auto; /* Allow the height to adjust based on content */
-    padding: 20px 16px; /* More padding for a spacious look */
-    background: #FFFAF0;
+    padding: 40px 20px;
+    background: #FFFAFA;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    border-top: 2px solid #e0e0e0; /* Add a subtle top border for separation */
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-}
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
 
 .footer h1 {
     color: black;
@@ -1281,24 +1304,76 @@
 }
 
 .footer-logo {
-    width: 170px; /* Adjust size based on your logo dimensions */
+    width: 220px; /* Adjust size based on your logo dimensions */
     margin-bottom: 10px;
 }
 
 .footer-contact {
-    margin-top: -40px;
-    text-align: center;
-}
-
-.footer-contact a {
-    color: black;
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+  }
+  
+  .footer-contact a {
+    color: #333;
     text-decoration: none;
-}
-
-.footer-contact a:hover {
+    font-weight: 500;
+  }
+  
+  .footer-contact a:hover {
     text-decoration: underline;
-}
+  }
 
 
+  .footer p:last-of-type {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  
+
+#openBag {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #a0522d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .bag-sidebar {
+    position: fixed;
+    right: -350px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: -4px 0 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: right 0.3s;
+    z-index: 999;
+    margin-top: 95px;
+    overflow-y: auto; /* ✅ makes content scrollable vertically */
+
+  }
+  
+  .bag-sidebar.active {
+    right: 0;
+  }
+  
+  .bag-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bag-sidebar li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
 
 
